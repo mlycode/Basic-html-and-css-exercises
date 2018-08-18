@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image Gallery</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="gallery.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+<div class="container">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><i class="fas fa-camera-retro"></i> IMGs</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#">About <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Sign Up</a></li>
+        <li><a href="#">Login</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</div>
+</nav>
+
+<div class="container">
+	<div class="jumbotron">
+		<h1><i class="fas fa-camera-retro"></i>  The Image Gallery</h1>
+		<p>A Selection of My Favourite Images</p>
+	</div>
+
+	<div class="row flex">
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<img src="https://images.unsplash.com/photo-1471513671800-b09c87e1497c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=263d1948dcd0e71c59c4929e8fcf3f46&auto=format&fit=crop&w=2700&q=80">
+			</div>
+		</div>
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<img src="https://images.unsplash.com/photo-1465189684280-6a8fa9b19a7a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=29640b60327a3b66e91817e39adc433a&auto=format&fit=crop&w=2700&q=80">
+			</div>
+		</div>
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<img src="https://images.unsplash.com/photo-1431794062232-2a99a5431c6c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=13b58b0343d8efc06a88c55e843f624f&auto=format&fit=crop&w=2700&q=80">
+			</div>
+		</div>
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e471a27144269e4b573dfdee025e7327&auto=format&fit=crop&w=2640&q=80">
+			</div>
+		</div>
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=79f96121806d64f986dc5e5d9308afb1&auto=format&fit=crop&w=2106&q=80">
+			</div>
+		</div>
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<img src="https://images.unsplash.com/photo-1448375240586-882707db888b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=dd1c3895999a4f9c5e4ac57e6e9fa2fb&auto=format&fit=crop&w=2100&q=80">
+			</div>
+		</div>
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<img src="https://images.unsplash.com/photo-1443890923422-7819ed4101c0?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4f18acb8db93abc281f66dcfd2ad9e61&auto=format&fit=crop&w=2100&q=80">
+			</div>
+		</div>
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<img src="https://images.unsplash.com/photo-1456750695228-762f8db965a4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5d243620cb6b39937ec5e1f0785ffa46&auto=format&fit=crop&w=2048&q=80">
+			</div>
+		</div>
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<img src="https://images.unsplash.com/photo-1502261159926-e31d770eb6e1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9efa0661e53144c027f5cea31760a31a&auto=format&fit=crop&w=2681&q=80">
+			</div>
+		</div>
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<img src="https://images.unsplash.com/photo-1443890923422-7819ed4101c0?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4f18acb8db93abc281f66dcfd2ad9e61&auto=format&fit=crop&w=2100&q=80">
+			</div>
+		</div>
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<img src="https://images.unsplash.com/photo-1456750695228-762f8db965a4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5d243620cb6b39937ec5e1f0785ffa46&auto=format&fit=crop&w=2048&q=80">
+			</div>
+		</div>
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<img src="https://images.unsplash.com/photo-1502261159926-e31d770eb6e1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9efa0661e53144c027f5cea31760a31a&auto=format&fit=crop&w=2681&q=80">
+			</div>
+		</div>
+	</div>
+
+</div>
+
+</body>
+</html>
